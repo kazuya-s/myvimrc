@@ -22,6 +22,7 @@ NeoBundle 'JavaScript-syntax'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
 NeoBundle 'Lokaltog/powerline-fontpatcher'
+NeoBundle 'mattn/emmet-vim'
 
 " (3) github以外のgitリポジトリを追加する場合
 " 例：Bundle 'git://git.wincent.com/command-t.git'
