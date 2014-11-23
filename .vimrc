@@ -20,6 +20,8 @@ NeoBundle 'JavaScript-syntax'
 " (2) github の任意のリポジトリを追加する場合
 " 例：Bundle "tpope/vim-fugitive"
 NeoBundle "pangloss/vim-javascript"
+NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
+NeoBundle 'Lokaltog/powerline-fontpatcher'
 
 " (3) github以外のgitリポジトリを追加する場合
 " 例：Bundle "git://git.wincent.com/command-t.git"
@@ -67,3 +69,11 @@ set tabstop=4
 "
 autocmd FileType javascript :compiler gjslint
 autocmd QuickfixCmdPost make copen
+
+" ----------------------------------------
+" PowerLine
+" ----------------------------------------
+set laststatus=2
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+let g:Powerline_symbols = 'fancy'
+set noshowmode
