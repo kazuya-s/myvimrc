@@ -14,17 +14,17 @@ call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " (1) vim-script(http://vim-scripts.org/vim/scripts.html)のファイルを追加する場合
-" 例：NeoBundle "rails.vim"
+" 例：NeoBundle 'rails.vim'
 NeoBundle 'JavaScript-syntax'
 
 " (2) github の任意のリポジトリを追加する場合
-" 例：Bundle "tpope/vim-fugitive"
-NeoBundle "pangloss/vim-javascript"
+" 例：Bundle 'tpope/vim-fugitive'
+NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
 NeoBundle 'Lokaltog/powerline-fontpatcher'
 
 " (3) github以外のgitリポジトリを追加する場合
-" 例：Bundle "git://git.wincent.com/command-t.git"
+" 例：Bundle 'git://git.wincent.com/command-t.git'
 
 call neobundle#end()
 
