@@ -23,6 +23,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Lokaltog/powerline-fontpatcher'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'tpope/vim-rails'
 NeoBundle 'scrooloose/nerdtree'
 
 " (3) github以外のgitリポジトリを追加する場合
