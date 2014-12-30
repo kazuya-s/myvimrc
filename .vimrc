@@ -19,8 +19,8 @@ NeoBundle 'JavaScript-syntax'
 
 " (2) github の任意のリポジトリを追加する場合
 " 例：Bundle 'tpope/vim-fugitive'
+NeoBundle 'bling/vim-airline'
 NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
 NeoBundle 'Lokaltog/powerline-fontpatcher'
 NeoBundle 'mattn/emmet-vim'
 
@@ -72,9 +72,7 @@ autocmd FileType javascript :compiler gjslint
 autocmd QuickfixCmdPost make copen
 
 " ----------------------------------------
-" PowerLine
+" airline
 " ----------------------------------------
-set laststatus=2
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-let g:Powerline_symbols = 'fancy'
-set noshowmode
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1

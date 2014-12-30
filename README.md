@@ -25,11 +25,13 @@ NeoBundleCheckがONになっているので、vim起動時にプラグインの�
 
 ## プラグイン削除
 .vimrcから不要なNeoBundle行を削除して `:NeoBundleClean(!)`
-      
+
 ---
 
-# powerlineの設定
-**SourceCodeProフォントを使用する場合**
+# vim-airlineの設定
+_※powerline-fontpatcherを使ってパッチを当てる_
+
+**SourceCodeProフォントの場合**
 
 1. [SourceCodePro](https://store1.adobe.com/cfusion/store/html/index.cfm?store=OLS-JP&event=displayFontPackage&code=1960)フォントのダウンロード
 
