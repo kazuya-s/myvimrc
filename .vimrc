@@ -23,6 +23,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Lokaltog/powerline-fontpatcher'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'scrooloose/nerdtree'
 
