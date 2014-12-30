@@ -30,7 +30,7 @@ NeoBundle 'mattn/emmet-vim'
 call neobundle#end()
 
 filetype on " プラグイン読み込んだらインデント戻す
-filetype plugin indent on 
+filetype plugin indent on
 filetype indent on
 
 NeoBundleCheck
@@ -56,7 +56,7 @@ syntax on
 " ----------------------------------------
 " 検索
 " ----------------------------------------
-set incsearch 
+set incsearch
 set wrapscan " 検索が最期まで行ったら最初に戻る
 
 " ----------------------------------------
@@ -74,5 +74,5 @@ autocmd QuickfixCmdPost make copen
 " ----------------------------------------
 " airline
 " ----------------------------------------
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
