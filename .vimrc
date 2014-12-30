@@ -23,6 +23,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Lokaltog/powerline-fontpatcher'
 NeoBundle 'mattn/emmet-vim'
+NeoBundle 'scrooloose/nerdtree'
 
 " (3) github以外のgitリポジトリを追加する場合
 " 例：Bundle 'git://git.wincent.com/command-t.git'
@@ -76,3 +77,8 @@ autocmd QuickfixCmdPost make copen
 " ----------------------------------------
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
+
+" ----------------------------------------
+" NERDTree
+" ----------------------------------------
+let NERDTreeShowHidden=1
