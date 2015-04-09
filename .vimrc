@@ -66,8 +66,11 @@ set wrapscan " 検索が最期まで行ったら最初に戻る
 " ----------------------------------------
 " プログラミング
 " ----------------------------------------
-set smartindent " オートインデント
-set tabstop=4
+set smartindent  " カッコのたびにインデントを深くする
+set tabstop=4    " ファイル中のTab文字をスペースに展開して表示する
+set softtabstop=4 " キーボードでTabを押した時に挿入される空白幅
+set shiftwidth=4 " autoindentの時に入力するタブ幅
+set expandtab    " Tabキーを押した時にスペースを入れる
 
 " ----------------------------------------
 " lint
