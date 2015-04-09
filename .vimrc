@@ -69,9 +69,9 @@ set wrapscan " 検索が最期まで行ったら最初に戻る
 set smartindent " オートインデント
 set tabstop=4
 
-"
+" ----------------------------------------
 " lint
-"
+" ----------------------------------------
 autocmd FileType javascript :compiler gjslint
 autocmd QuickfixCmdPost make copen
 
